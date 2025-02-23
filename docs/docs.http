@@ -1,0 +1,39 @@
+GET http://localhost:8080/usuarios
+
+###
+
+GET http://localhost:8080/usuarios/1
+
+###
+
+POST http://localhost:8080/usuarios
+
+{
+  "id": 3,
+  "nome": "Milton",
+  "email": "edson@.com"
+}
+
+
+###
+
+PUT http://localhost:8080/usuarios/1
+
+{
+  "id": 2,
+  "nome": "Milton",
+  "email": "edson@.com"
+}
+
+###
+
+DELETE http://localhost:8080/usuarios/2
+
+
+
+
+
+
+
+
+
