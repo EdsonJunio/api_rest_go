@@ -2,7 +2,7 @@ GET http://localhost:8080/usuarios
 
 ###
 
-GET http://localhost:8080/usuarios/1
+GET http://localhost:8080/usuarios/2
 
 ###
 
@@ -17,17 +17,17 @@ POST http://localhost:8080/usuarios
 
 ###
 
-PUT http://localhost:8080/usuarios/1
+PUT http://localhost:8080/usuarios/2
 
 {
-  "id": 2,
-  "nome": "Milton",
+
+  "nome": "Miltssso258n",
   "email": "edson@.com"
 }
 
 ###
 
-DELETE http://localhost:8080/usuarios/2
+DELETE http://localhost:8080/usuarios/1
 
 
 
