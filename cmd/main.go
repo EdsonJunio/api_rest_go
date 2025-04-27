@@ -16,5 +16,8 @@ func main() {
 	router := gin.Default()
 	hdl.RegisterRoutes(router.Group(""))
 
-	router.Run(":8080")
+	err := router.Run(":8080")
+	if err != nil {
+		return
+	}
 }
